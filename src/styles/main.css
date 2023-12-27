@@ -1,0 +1,113 @@
+.BigNewsCards {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 60px;
+    margin: 40px auto;
+}
+
+.News-big__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 438px;
+    height: 520px!important;
+    height: auto;
+    background-color: white;
+    box-shadow: 0px 4px 10px -10px rgba(34, 60, 80, 0.2);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.News-big__card:hover {
+    transition: all 0.4s ease;
+    transform: translateY(-10px);
+}
+
+.news-card__img {
+    border-radius: 15px 10px 0px 5px;
+    width: 438px;
+height: 210px;
+}
+
+.News-card__info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.news-card__name {
+    color: #2A2A2A;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.news-card__title {
+    color: #2A2A2A;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 146.667%;
+}
+
+.news-time__author {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news-time__author span {
+    color: #2A2A2A;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 165%;
+}
+
+.news-time__author p {
+    color: #2A2A2A;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 165%;
+}
+
+.NewsPage {
+    width: 100%;
+    height: 100%;
+}
+
+.news-page__infos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    z-index: 199;
+}
+.news-page__infos img {
+    width: 100%;
+    height: 523px;
+}
+
+.new-page__title {
+    width: 800px;
+    color: #000000;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.news-page__desc {
+    color: #2A2A2A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
