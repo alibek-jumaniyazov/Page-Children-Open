@@ -1,5 +1,3 @@
-import { useContext } from "react"
-import { UserContext } from "./Context/UserContext"
 import Header from "./Components/Header/Header"
 import Footer from "./Components/Footer/Footer"
 import { Route, Routes } from "react-router-dom"
@@ -9,7 +7,6 @@ import NewsPage from "./Components/Home/NewsPage"
 
 function App() {
 
-  const { } = useContext(UserContext)
 
   return (
     <div className="App">

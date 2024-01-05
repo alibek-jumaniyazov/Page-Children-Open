@@ -9,6 +9,7 @@ export default function Header() {
     const [activeCategoy, setArticleCategory] = useState("")
 
     const activeHref = href.substring(1).split("/")[1]
+    
     useEffect(() => {
         if (activeHref) {
             setArticleCategory(activeHref)

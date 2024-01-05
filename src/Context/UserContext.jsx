@@ -20,7 +20,6 @@ const UserProvider = ({ children }) => {
                 setLoader(false)
             }
         }
-       
         getAll();
     }, [])
 
